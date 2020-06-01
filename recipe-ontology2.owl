@@ -1,0 +1,1339 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#"
+     xml:base="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-22="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#allerigic_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#allerigic_to">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Recipe_name"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Allergies"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#has_chef_name -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#has_chef_name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Recipe_name"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Chef_name"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#has_difficulty_level -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#has_difficulty_level">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Recipe_name"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Difficulty_level"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#has_duration -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#has_duration">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Recipe_name"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Duration"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#has_ingredient -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#has_ingredient">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Recipe_name"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Ingredients"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#has_ratings -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#has_ratings">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Recipe_name"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Ratings"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#nutri_value -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#nutri_value">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Recipe_name"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Nutritional_value"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#under_cuisine -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#under_cuisine">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Recipe_name"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Cuisines"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#name">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#recipe_name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#recipe_name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Recipe_name"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#recipe_procedure -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#recipe_procedure">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Recipe_name"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Allergies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Allergies"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Almonds -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Almonds">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Grains_or_Nuts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#American -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#American">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Cuisines"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Butter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Butter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Dairy_products"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Carbohydrates -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Carbohydrates">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Nutritional_value"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Cashews -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Cashews">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Grains_or_Nuts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Chef_name -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Chef_name">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Recipe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Chicken_breasts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Chicken_breasts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Meat_and_Eggs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Chillies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Chillies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Vegetables"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Chinese -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Chinese">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Cuisines"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Cilantro_leaves -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Cilantro_leaves">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Vegetables"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Cinamon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Cinamon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Spices"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Coriander -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Coriander">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Vegetables"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Corn -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Corn">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Allergies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Cow_Milk -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Cow_Milk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Dairy_products"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Cream -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Cream">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Dairy_products"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Cuisines -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Cuisines"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Cumin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Cumin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Spices"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Dairy_products -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Dairy_products">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Ingredients"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Difficulty_level -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Difficulty_level">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Recipe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Duration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Duration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Recipe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Egg -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Egg">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Allergies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Eggs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Eggs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Meat_and_Eggs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Energy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Energy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Nutritional_value"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Fats -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Fats">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Nutritional_value"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Fish -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Fish">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Allergies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Fruits -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Fruits">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Ingredients"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Garam_Masala -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Garam_Masala">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Spices"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Garlic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Garlic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Vegetables"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Grains_or_Nuts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Grains_or_Nuts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Ingredients"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Indian -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Indian">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Cuisines"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Ingredients -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Ingredients"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Italian -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Italian">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Cuisines"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Japanese -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Japanese">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Cuisines"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Korean -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Korean">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Cuisines"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Lime -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Lime">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Fruits"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Meat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Meat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Allergies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Meat_and_Eggs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Meat_and_Eggs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Ingredients"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Mexican -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Mexican">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Cuisines"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Milk -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Milk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Allergies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Nutritional_value -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Nutritional_value"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Onions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Onions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Vegetables"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Paprika -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Paprika">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Spices"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Peanut -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Peanut">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Allergies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Plain_flour -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Plain_flour">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Grains_or_Nuts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Protien -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Protien">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Nutritional_value"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Ratings -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Ratings">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Recipe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Recipe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Recipe"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Recipe_name -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Recipe_name">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Recipe"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Salt -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Salt">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Spices"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Salts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Salts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Nutritional_value"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Sea_food -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Sea_food">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Ingredients"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Shellfish -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Shellfish">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Allergies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Soy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Soy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Allergies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Spices -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Spices">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Ingredients"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Sugar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Sugar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Spices"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Sugars -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Sugars">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Nutritional_value"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Thai -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Thai">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Cuisines"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Tomatoes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Tomatoes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Vegetables"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Tree_Nut -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Tree_Nut">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Allergies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Turmeric -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Turmeric">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Spices"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Vegetables -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Vegetables">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Ingredients"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Wheat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Wheat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Allergies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Yoghurt -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Yoghurt">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Dairy_products"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Almonds -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Almonds">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Almonds"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Almonds</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#American -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#American">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#American"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">American</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Butter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Butter">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Butter"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Butter</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Cashews -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Cashews">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Cashews"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cashews</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Chicken_breasts -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Chicken_breasts">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Chicken_breasts"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chicken_breasts</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Chillies -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Chillies">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Chillies"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chillies</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Chinese -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Chinese">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Chinese"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chinese</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Cilantro_leaves -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Cilantro_leaves">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Cilantro_leaves"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cilantro_leaves</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Cinamon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Cinamon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Cinamon"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cinamon</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Coriander -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Coriander">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Coriander"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coriander</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Corn -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Corn">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Corn"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corn</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Cow_milk -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Cow_milk">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Cow_Milk"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cow_milk</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Cream -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Cream">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Cream"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cream</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Cumin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Cumin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Cumin"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cumin</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Danial_Humm -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Danial_Humm">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Chef_name"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Danial Humm</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Easy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Easy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Difficulty_level"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Easy</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Egg -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Egg">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Egg"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Egg</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Eggs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Eggs">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Eggs"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eggs</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Fish -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Fish">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Fish"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fish</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Garam_Masala -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Garam_Masala">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Garam_Masala"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garam_Masala</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Garlic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Garlic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Garlic"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garlic</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Hard -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Hard">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Difficulty_level"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hard</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Indian -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Indian">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Indian"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indian</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Italian -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Italian">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Italian"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italian</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Japanese -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Japanese">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Japanese"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Japanese</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Korean -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Korean">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Korean"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Korean</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Lime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Lime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Lime"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lime</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Meat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Meat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Meat"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meat</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Medium -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Medium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Difficulty_level"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medium</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Mexican -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Mexican">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Mexican"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mexican</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Milk -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Milk">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Milk"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Milk</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Onions -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Onions">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Onions"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onions</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Paprika -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Paprika">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Paprika"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paprika</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Peanut -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Peanut">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Peanut"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peanut</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Plain_flour -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Plain_flour">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Plain_flour"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plain_flour</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Recipe1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Recipe1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Recipe_name"/>
+        <allerigic_to rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Meat"/>
+        <allerigic_to rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Milk"/>
+        <has_chef_name rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Sanjeev_Kapoor"/>
+        <has_difficulty_level rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Medium"/>
+        <has_duration rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#30_minutes"/>
+        <has_ingredient rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Almonds"/>
+        <has_ingredient rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Chicken_breasts"/>
+        <has_ingredient rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Chillies"/>
+        <has_ingredient rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Cilantro_leaves"/>
+        <has_ingredient rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Cinamon"/>
+        <has_ingredient rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Cumin"/>
+        <has_ingredient rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Garam_Masala"/>
+        <has_ingredient rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Garlic"/>
+        <has_ingredient rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Lime"/>
+        <has_ingredient rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Onions"/>
+        <has_ingredient rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Salts"/>
+        <has_ingredient rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Tomatoes"/>
+        <has_ingredient rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Turmeric"/>
+        <has_ingredient rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Yoghurt"/>
+        <has_ratings rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#4.5"/>
+        <nutri_value rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#1.04g"/>
+        <nutri_value rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#130kcal"/>
+        <nutri_value rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#14g"/>
+        <nutri_value rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#25g"/>
+        <nutri_value rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#4.0g"/>
+        <nutri_value rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#6.6g"/>
+        <under_cuisine rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Indian"/>
+        <recipe_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Butter Chicken</recipe_name>
+        <recipe_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Step 1: Whisk together the yogurt, lemon juice, turmeric, garam masala and cumin in a large bowl. Put the chicken in, and coat with the marinade. Cover, and refrigerate (for up to a day).
+
+Step 2: In a large pan over medium heat, melt the butter in the oil until it starts to foam. Add the onions, and cook, stirring frequently, until translucent. Add the garlic, ginger and cumin seeds, and cook until the onions start to brown.
+
+Step 3: Add the cinnamon stick, tomatoes, chiles and salt, and cook until the chiles are soft, about 10 minutes.
+
+Step 4: Add the chicken and marinade to the pan, and cook for 5 minutes, then add the chicken stock. Bring the mixture to a boil, then lower the heat and simmer, uncovered, for approximately 30 minutes.
+
+Step 5: Stir in the cream and tomato paste, and simmer until the chicken is cooked through, approximately 10 to 15 minutes.
+
+Step 6: Add the almonds, cook for an additional 5 minutes and remove from the heat. Garnish with the cilantro leaves.</recipe_procedure>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Recipe2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Recipe2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Recipe_name"/>
+        <allerigic_to rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Egg"/>
+        <allerigic_to rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Milk"/>
+        <allerigic_to rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Wheat"/>
+        <has_chef_name rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Danial_Humm"/>
+        <has_difficulty_level rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Easy"/>
+        <has_duration rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#15_minutes"/>
+        <has_ingredient rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Cow_milk"/>
+        <has_ingredient rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Eggs"/>
+        <has_ingredient rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Plain_flour"/>
+        <has_ingredient rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Sugar"/>
+        <has_ratings rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#4.5"/>
+        <nutri_value rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#0.1g"/>
+        <nutri_value rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#1g"/>
+        <nutri_value rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#2g"/>
+        <nutri_value rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#3g"/>
+        <nutri_value rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#61kcal"/>
+        <nutri_value rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#7g"/>
+        <under_cuisine rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#American"/>
+        <recipe_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Easy Pancakes</recipe_name>
+        <recipe_procedure rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1. Put 100g plain flour, 2 large eggs, 300ml milk, 1 tbsp sunflower or vegetable oil and a pinch of salt into a bowl or large jug, then whisk to a smooth batter.
+
+2. Set aside for 30 mins to rest if you have time, or start cooking straight away.
+
+3. Set a medium frying pan or crêpe pan over a medium heat and carefully wipe it with some oiled kitchen paper.
+
+4. When hot, cook your pancakes for 1 min on each side until golden, keeping them warm in a low oven as you go.
+
+5. Serve with lemon wedges and caster sugar, or your favourite filling. Once cold, you can layer the pancakes between baking parchment, then wrap in cling film and freeze for up to 2 months.</recipe_procedure>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Salts -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Salts">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Salt"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salts</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Sanjeev_Kapoor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Sanjeev_Kapoor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Chef_name"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sanjeev_Kapoor</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Shellfish -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Shellfish">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Shellfish"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shellfish</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Soy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Soy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Soy"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soy</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Sugar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Sugar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Sugar"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sugar</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Thai -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Thai">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Thai"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thai</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Tomatoes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Tomatoes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Tomatoes"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomatoes</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Tree_Nut -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Tree_Nut">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Tree_Nut"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tree_Nut</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Turmeric -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Turmeric">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Turmeric"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turmeric</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Wheat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Wheat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Wheat"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wheat</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Yoghurt -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Yoghurt">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Yoghurt"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yoghurt</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#0.1g -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#0.1g">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Salts"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.1g</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#1g -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#1g">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Sugars"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1g</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#1.04g -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#1.04g">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Salts"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.04g</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#130kcal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#130kcal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Energy"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">130kcal</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#14g -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#14g">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Sugars"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14g</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#15_minutes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#15_minutes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Duration"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15_minutes</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#2g -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#2g">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Fats"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2g</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#25g -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#25g">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Carbohydrates"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25g</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#3g -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#3g">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Protien"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3g</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#3.0 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#3.0">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Ratings"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.0</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#3.5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#3.5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Ratings"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.5</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#30_minutes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#30_minutes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Duration"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30_minutes</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#4.0 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#4.0">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Ratings"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.0</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#4.0g -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#4.0g">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Protien"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.0g</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#4.5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#4.5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Ratings"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.5</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#45_minutes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#45_minutes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Duration"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">45_minutes</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#6.6g -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#6.6g">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Fats"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6.6g</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#60_minutes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#60_minutes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Duration"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">60_minutes</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#61kcal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#61kcal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Energy"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">61kcal</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#7g -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#7g">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nikhil/ontologies/2019/10/untitled-ontology-22#Carbohydrates"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7g</name>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
